@@ -23,3 +23,11 @@ function findLeapYear(arr) {
 const years = [2000,2023, 2024, 2025, 2028, 2030,1600,1700];
 const isLeapYear = findLeapYear(years);
 console.log(isLeapYear);
+
+
+/* output : 
+{
+    Leap_Year: [ 2000, 2024, 2028, 1600 ],
+    Non_Leap_Year: [ 2023, 2025, 2030, 1700 ]
+}*/
+  
