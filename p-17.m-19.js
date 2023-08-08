@@ -10,3 +10,5 @@ function getHour(hour){
 const hr = 5;
 const min = getHour(hr);
 console.log(hr + " hours = "+min+" minutes");
+
+// output : 5 hours = 300 minutes
