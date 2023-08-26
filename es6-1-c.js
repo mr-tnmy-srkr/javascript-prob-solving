@@ -29,3 +29,5 @@ const scic = students.filter(
 
 const scicEmails = scic.map((student) => student.email).join(", ");
 console.log(scicEmails);
+
+// output : mehedy@gamil.com, sojib@gamil.com, jackie@gamil.com
