@@ -27,3 +27,10 @@ Persons.map((person) => {
 })
 
 console.log(obj)
+
+/*  output : {
+  ID01: 'abul vai',
+  ID02: 'babul vai',
+  ID03: 'habul vai',
+  ID04: 'jabul vai'
+} */
