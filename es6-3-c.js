@@ -9,4 +9,4 @@ const property = "phone";
 obj[property]=1258004;
 console.log(obj);
 
-// output : { x: 'hello', y: 'world', phone: 1258004 }
+// output : { x: 'hello', y: 'world', phone: 1258004 } 
