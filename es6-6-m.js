@@ -1,4 +1,4 @@
-// task-2: console .log  output: Petersburg, Herry
+// task-2: console log  output: Petersburg, Herry
 
 let students = {
     2222: {
@@ -25,3 +25,5 @@ let students = {
     }
 }
 
+console.log(students[2222].address.city);      //Petersburg
+console.log(students[3333].name)               //Herry
