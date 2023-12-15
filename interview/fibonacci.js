@@ -27,11 +27,13 @@ console.log(fibonacci(12)); //Answer : 144
 // 89
 // 144
 
-//   another method by recursive?
+//   another method with recursive function?
 
-function fibonacci2(m) {
+function fibonacci(m) {
   if (m <= 1) return m;
   else return fibonacci(m - 1) + fibonacci(m - 2);
+  // fibonacci(11) + fibonacci(10)
+  // fibonacci(10) + fibonacci(9) + fibonacci(9) + fibonacci(8)
 }
 
-console.log(fibonacci2(12)); //144
+console.log(fibonacci(12)); //144
