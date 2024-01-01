@@ -14,3 +14,13 @@ function isPalindrome(str){
   console.log(isPalindrome('madam'))  // true
 
   console.log(isPalindrome('toyota'))  //false
+
+//   or
+
+
+function checkPalindrome(str) {
+    return str == str.split('').reverse().join('');
+}
+
+console.log(checkPalindrome('madam'));  // true
+console.log(checkPalindrome('toyota'));  // false
