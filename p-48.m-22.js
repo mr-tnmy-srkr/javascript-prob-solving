@@ -21,6 +21,14 @@ console.log("fizzbuzz");
     }
 }
 
+//alternative
+
+for (let i = 1, msg; i <= 60; i++, msg = '') {
+    if (!(i % 3)) msg += 'Fizz';
+    if (!(i % 5)) msg += 'Buzz';
+    console.log(msg || i);
+  }
+
 /* output : 
 1
 2
